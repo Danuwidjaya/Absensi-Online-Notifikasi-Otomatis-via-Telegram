@@ -27,3 +27,68 @@ flowchart TD
     C --> D[Ambil Data Absensi]
     D --> E[Format Pesan]
     E --> F[Kirim ke Grup Telegram via Bot]
+```
+
+## ⚙️ Langkah Implementasi di Make.com
+
+### 1. Siapkan Google Form + Sheet
+- Buat Form dengan input: Nama, Waktu Hadir, Keterangan
+- Pastikan data masuk ke Google Sheets
+
+### 2. Buat Bot Telegram
+- Gunakan @BotFather → Buat bot baru → Salin token
+- Tambahkan bot ke grup Telegram → Jadikan admin
+
+### 3. Buat Scenario di Make.com
+- **Module 1:** Google Sheets – Watch Rows
+- **Module 2:** (Optional) Formatter
+- **Module 3:** Telegram Bot – Send a Message
+
+### 4. Aktifkan Skenario
+- Klik **ON**
+- Atur **schedule (misal: setiap 15 menit)**
+
+## 🧾 Contoh Pesan yang Dikirim
+
+```
+📌 Absensi Baru Terkirim!
+👤 Nama: Syifa Komara D.
+🕘 Waktu Hadir: 08:45 WIB
+📝 Keterangan: Hadir
+
+#Absensi #DailyUpdate
+```
+
+## 👩‍💻 Skill yang Dipelajari
+- Konsep automation & workflow logic
+- Mengintegrasikan API sederhana (Telegram Bot)
+- Membaca dan memproses data dari Google Sheets
+- Logging dan debugging alur otomatisasi
+
+## 🗺️ Roadmap Pengembangan
+
+| Tahap | Fitur Tambahan                                      | Status   |
+|-------|-----------------------------------------------------|----------|
+| V1    | Absensi + Notifikasi Telegram                       | ✅ Done  |
+| V2    | Reminder jika belum absen sampai jam 09.00          | ⏳ Coming |
+| V3    | Auto Rekap Absensi Mingguan (PDF + Email)           | ⏳ Coming |
+| V4    | Integrasi ke Dashboard Notion / Google DataStudio   | ⏳ Coming |
+
+## 📷 Tangkapan Layar (Screenshots)
+
+### 📄 Google Form
+![Form Absensi](./screenshots/form-absensi.png)
+
+### 📊 Spreadsheet Google Sheets
+![Spreadsheet](./screenshots/sheet-absen.png)
+
+### 🔧 Make.com Scenario
+![Make Scenario](./screenshots/make-skenario.png)
+
+### 💬 Output Telegram
+![Telegram Bot](./screenshots/telegram-bot.png)
+
+---
+
+**Author:** Syifa Komara Danuwidjaya  
+_Ini adalah salah satu project portfolio automation sederhana menggunakan Make.com. Untuk kolaborasi atau pertanyaan, silakan hubungi saya._
