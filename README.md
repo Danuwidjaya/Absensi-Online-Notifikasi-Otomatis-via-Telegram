@@ -77,16 +77,16 @@ flowchart TD
 ## 📷 Tangkapan Layar (Screenshots)
 
 ### 📄 Google Form
-![Form Absensi](./screenshots/form-absensi.png)
+![Form Absensi](./Screenshots/form-absensi.png)
 
 ### 📊 Spreadsheet Google Sheets
-![Spreadsheet](./screenshots/sheet-absen.png)
+![Spreadsheet](./Screenshots/sheet-absen.png)
 
 ### 🔧 Make.com Scenario
-![Make Scenario](./screenshots/make-skenario.png)
+![Make Scenario](./Screenshots/make-skenario.png)
 
 ### 💬 Output Telegram
-![Telegram Bot](./screenshots/telegram-bot.png)
+![Telegram Bot](./Screenshots/telegram-bot.png)
 
 ---
 
